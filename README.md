@@ -4,6 +4,8 @@ car_vue  前端显示界面
 cardemo  后端程序
 
 car_vue  {
+
+
      登录：{登录界面国际化(中英文切换)，注册，验证码}，
      
      用户界面：{用户首页，用户信息，商品展示，
@@ -16,6 +18,8 @@ car_vue  {
 }
 
 cardemo{
+
+
     userHandler:用户登录和用户信息管理操作的类；
     carMenuHandler: 商品有关的类；
     orderHandler： 租赁汽车和订单的相关的类；
@@ -29,7 +33,10 @@ cardemo{
     service：数据处理层；
     util: 自定义工具类(KeyUtil:生成随机id的各个方法；ResultUtil:返回前端的封装数据接口)；
     vo: 返回的前端数据
+    
 }
+
+
 
 该项目已经部署到阿里云网址：http://39.106.154.21:8080/
 
